@@ -58,7 +58,7 @@ gulp.task('depsDownload', function() {
 });
 
 gulp.task('depsInstall', ['depsDownload'] ,function() {
-  var stream = gulp.src('bower_components/**/*')
+  var stream = gulp.src('app/bower_components/**/*')
     .pipe($.plumber({errorHandler: errorAlert}))
     .pipe(gulp.dest(srcAssets.styles + 'vendors'))
     return stream;
