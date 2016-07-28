@@ -4,7 +4,7 @@ email: jordan.barhorst@gmail.com
 keywords: "comma, separated, keywords"
 description: "Simple boilerplate for quickly setting up Jekyll with Normalize, Bourbon and Neat."
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/starter-kit" # the subpath of your site, e.g. /blog/
 
 markdown: kramdown
 
